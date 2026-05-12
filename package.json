@@ -28,6 +28,14 @@
   ],
   "author": "PayX",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/payx-app/payx-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/payx-app/payx-node/issues"
+  },
+  "homepage": "https://github.com/payx-app/payx-node#readme",
   "engines": {
     "node": ">=16.0.0"
   },
