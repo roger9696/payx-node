@@ -30,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/payx-app/payx-node.git"
+    "url": "git+https://github.com/payx-app/payx-node.git"
   },
   "bugs": {
     "url": "https://github.com/payx-app/payx-node/issues"
