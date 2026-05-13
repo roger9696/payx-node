@@ -1,15 +1,16 @@
 {
   "name": "payx-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The official Node.js SDK for PayX",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
       "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "default": "./dist/index.js"
     }
   },
   "files": [

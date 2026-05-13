@@ -16,8 +16,10 @@ export interface ChargeParams {
   phoneNumber: string;
   network: Network;
   currency?: string;
+  email?: string;
   payerMessage?: string;
   payeeNote?: string;
+  metadata?: Record<string, any>;
 }
 
 export interface PayoutParams {
@@ -25,8 +27,10 @@ export interface PayoutParams {
   phoneNumber: string;
   network: Network;
   currency?: string;
+  email?: string;
   payerMessage?: string;
   payeeNote?: string;
+  metadata?: Record<string, any>;
 }
 
 export interface TransactionResponse {

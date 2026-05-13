@@ -16,16 +16,20 @@ interface ChargeParams {
     phoneNumber: string;
     network: Network;
     currency?: string;
+    email?: string;
     payerMessage?: string;
     payeeNote?: string;
+    metadata?: Record<string, any>;
 }
 interface PayoutParams {
     amount: number | string;
     phoneNumber: string;
     network: Network;
     currency?: string;
+    email?: string;
     payerMessage?: string;
     payeeNote?: string;
+    metadata?: Record<string, any>;
 }
 interface TransactionResponse {
     message: string;
