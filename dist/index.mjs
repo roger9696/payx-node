@@ -78,7 +78,7 @@ var PayX = class {
       throw new Error("PayX API Key is required");
     }
     this.client = axios3.create({
-      baseURL: config.baseURL || "https://api.payx.app/v1",
+      baseURL: config.baseURL || "https://pay-x-beryl.vercel.app/api",
       headers: {
         "x-api-key": config.apiKey,
         "Content-Type": "application/json"
