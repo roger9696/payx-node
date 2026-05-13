@@ -4,7 +4,7 @@ async function runIntegrationTest() {
   console.log('🚀 Starting SDK Integration Test...');
 
   const payx = new PayX({
-    apiKey: 'px_test_fc35deb991684b74b70ccf084af5c3c5',
+    apiKey: 'px_test_YOUR_API_KEY',
     baseURL: 'http://localhost:3000/api/v1' // Local backend
   });
 
