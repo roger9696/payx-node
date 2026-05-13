@@ -1,6 +1,6 @@
 {
   "name": "payx-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The official Node.js SDK for PayX",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -30,12 +30,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/payx-app/payx-node.git"
+    "url": "git+https://github.com/roger9696/payx-node.git"
   },
   "bugs": {
-    "url": "https://github.com/payx-app/payx-node/issues"
+    "url": "https://github.com/roger9696/payx-node/issues"
   },
-  "homepage": "https://github.com/payx-app/payx-node#readme",
+  "homepage": "https://github.com/roger9696/payx-node#readme",
   "engines": {
     "node": ">=16.0.0"
   },
