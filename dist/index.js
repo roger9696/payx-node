@@ -114,7 +114,7 @@ var PayX = class {
       throw new Error("PayX API Key is required");
     }
     this.client = import_axios3.default.create({
-      baseURL: config.baseURL || "https://pay-x-beryl.vercel.app/api",
+      baseURL: config.baseURL || "https://payx.company/api",
       headers: {
         "x-api-key": config.apiKey,
         "Content-Type": "application/json"

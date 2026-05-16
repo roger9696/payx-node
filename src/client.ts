@@ -17,7 +17,7 @@ export class PayX {
     }
 
     this.client = axios.create({
-      baseURL: config.baseURL || 'https://pay-x-beryl.vercel.app/api',
+      baseURL: config.baseURL || 'https://payx.company/api',
       headers: {
         'x-api-key': config.apiKey,
         'Content-Type': 'application/json',

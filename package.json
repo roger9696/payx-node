@@ -1,6 +1,6 @@
 {
   "name": "payx-node",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The official Node.js SDK for PayX",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

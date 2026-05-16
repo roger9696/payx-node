@@ -6,7 +6,7 @@ interface PayXConfig {
      */
     apiKey: string;
     /**
-     * Optional base URL for the API (defaults to https://api.payx.app/v1)
+     * Optional base URL for the API (defaults to https://api.payx.company/v1)
      */
     baseURL?: string;
 }

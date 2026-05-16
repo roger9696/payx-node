@@ -56,4 +56,4 @@ const isValid = payx.webhooks.verifySignature(
 
 ## Documentation
 
-For full documentation, visit [docs.payx.app](https://docs.payx.app).
+For full documentation, visit [docs.payx.company](https://docs.payx.company).
